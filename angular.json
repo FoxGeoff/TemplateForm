@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "TemplateForm"
+    }
+  },
+  "defaultProject": "TemplateForm",
+  "cli": {
+    "analytics": false
+  }
 }
