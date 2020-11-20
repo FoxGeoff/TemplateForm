@@ -1,12 +1,14 @@
-# TemplateForm
+# Example Angular Template Form
+
+## TemplateForm
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
-## Task: Add FormsModule
+### Task: Add FormsModule
 
-## Task: Add a regular HTML Form
+### Task: Add a regular HTML Form
 
-## Task: Add ngForm
+### Task: Add ngForm
 
 1. ```<form #contactForm="ngForm">```
 
@@ -35,3 +37,16 @@ onSubmit(contactForm) {
 <pre>Touched : {{contactForm.touched  }} </pre>
 <pre>Submitted : {{contactForm.submitted  }} </pre>
 ```
+
+1. value: Returns the current value of the control
+2. valid: Returns true if the value is Valid else false
+3. invalid: True if the value is invalid else false
+4. touched: Returns true if the value is entered in the element
+
+### Task: Use each FormControl value, valid, invalid and  touched poperties
+
+1. value: Returns the current value of the control
+2. valid: Returns true if the value is Valid else false
+3. invalid: True if the value is invalid else false
+4. touched: Returns true if the value is entered in the element
+5. ```<input type="text" name="firstname" #fname="ngModel" ngModel>```
