@@ -50,3 +50,16 @@ onSubmit(contactForm) {
 3. invalid: True if the value is invalid else false
 4. touched: Returns true if the value is entered in the element
 5. ```<input type="text" name="firstname" #fname="ngModel" ngModel>```
+
+### Task: Use the checkbox to remove or insert a DOM element
+
+```TypeScript
+ <p>
+    <label for="isMarried">Married</label>
+    <input type="checkbox" name="isMarried" #married="ngModel" ngModel />
+  </p>
+
+  <div *ngIf="married.value">
+    <p>IS MARRIED</p>
+  </div>
+  ```

@@ -22,8 +22,12 @@
 
   <p>
     <label for="isMarried">Married</label>
-    <input type="checkbox" name="isMarried" ngModel />
+    <input type="checkbox" name="isMarried" #married="ngModel" ngModel />
   </p>
+
+  <div *ngIf="married.value">
+    <p>IS MARRIED</p>
+  </div>
 
   <select name="country" ngModel>
     <option [ngValue]="c.id" *ngFor="let c of countryList">
