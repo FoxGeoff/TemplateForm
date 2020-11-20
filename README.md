@@ -5,3 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Task: Add FormsModule
 
 ## Task: Add a regular HTML Form
+
+## Task: Add ngForm
+
+1. ```<form #contactForm="ngForm">```
