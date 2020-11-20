@@ -14,3 +14,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. Add ngModel and name="" to each control
 2. Add ```<form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">```
+3. NOTE: Each control must have ```name="controlName"``` and ```ngModel```
+4. Add method onSubmit
+
+```TypeScript
+onSubmit(contactForm) {
+    console.log(contactForm.value);
+  }
+```
