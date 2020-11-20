@@ -13,6 +13,11 @@ export class AppComponent {
     new country('2', 'USA'),
     new country('3', 'England')
   ];
+
+  onSubmit(contactForm) {
+    console.log(contactForm.value);
+  }
+
 }
 
 // tslint:disable-next-line: class-name

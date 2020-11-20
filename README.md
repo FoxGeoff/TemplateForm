@@ -9,3 +9,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Task: Add ngForm
 
 1. ```<form #contactForm="ngForm">```
+
+## Task: Add FormControls and Submit Form
+
+1. Add ngModel and name="" to each control
+2. Add ```<form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">```
