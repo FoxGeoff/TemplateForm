@@ -24,3 +24,14 @@ onSubmit(contactForm) {
 ```
 
 ### Task: View Local Variables
+
+```TypeScript
+<p>
+  <button type="submit">Submit</button>
+</p>
+
+<pre>Value : {{contactForm.value | json }} </pre>
+<pre>Valid : {{contactForm.valid}} </pre>
+<pre>Touched : {{contactForm.touched  }} </pre>
+<pre>Submitted : {{contactForm.submitted  }} </pre>
+```
