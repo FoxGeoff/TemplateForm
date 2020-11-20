@@ -22,3 +22,5 @@ onSubmit(contactForm) {
     console.log(contactForm.value);
   }
 ```
+
+### Task: View Local Variables
