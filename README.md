@@ -63,3 +63,8 @@ onSubmit(contactForm) {
     <p>IS MARRIED</p>
   </div>
   ```
+
+## Kanban Task: USING CLARITY GUI
+
+1. Run : ```ng add @clr/angular```
+2. Ref: <https://clarity.design/documentation/get-started>
